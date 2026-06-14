@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3b2c23;
+}
+
+h1 {
+	color: #f4ede1;
+	text-align: center;
+    font-size: 75px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-top: 80px;
+}
+
+.name{
+    color: #f4ede1;
+    text-align:center;
+    margin-top: -25px;
+}
+
+.mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 1320px) {
+
+    .mobile{
+        display: block;
+}
+
+
+
+}
+h2 {
+    background-color: #e4ddcc;
+    padding: 10px 30px;
+	color: #3e2723;
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 3px;
+
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+.main{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main li {
+	background-color: #fff8d6; 
+	border: 2px solid #443A35; 
+    width: 400px; 
+    height: 300px;
+    margin: 0px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.3s;
+  }
+
+ .main li:hover {
+	transform: rotate(3deg);
+}
+
+
+.main a {
+	color: #443A35;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    height: 300px; 
+}
+
+
+
+
+
+
+
+
+.nav-container {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 9999;
+
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.nav-container:hover{
+    opacity: 1;
+}
+
+.nav1{
+	background-color: whitesmoke;
+	text-align: center;
+	font-size: 17px;
+	margin-top: 15px;
+	margin-right: 0px;
+    margin-bottom: 10px;
+
+	transition: 0.3s;
+}
+
+.nav1 a{
+	display: block;
+    width: 120px;
+    padding: 15px 0;
+    color: #443A35;
+    text-decoration: none;
+}
+
+.nav1 a:hover{
+	transform: scale(1.05);
+    background-color: #8e98a1;
+    opacity: 1;
+}
+
+.nav1 a:link,
+.nav1 a:visited,
+.nav1 a:active{
+	color: #443A35;
+	text-decoration: none;
+}
+
+.word,
+.spelling{
+	color: #7a706b;
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin: 0;
+    text-decoration: none;
+    background-color: transparent;
+
+    transition: 0.3s;
+}
+
+.word:hover,
+.spelling:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+
+
+
+/*명조*/
+.word1 {
+	background-color: #414833;
+    font-family: 'Noto Serif KR', serif;
+}
+
+/*고딕*/
+.word2 {
+	background-color: #5d624c;
+}
+
+/*기타*/
+.word3 {
+	background-color: #8e9680;
+}
+
+/*맞춤법*/
+.spelling1 {
+	background-color: #b88c88;
+    }
+
+
+.set {display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+
+    padding-top: 120px;
+    padding-bottom: 250px;
+}
+
+
+
+
+
+
+
+
+/*사진*/
+.card{
+    position: relative;
+    width: 600px;
+    min-width: 450px;
+    transition: 0.3s;
+    margin: 30px;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+
+.card:hover .back{
+    opacity: 1;
+}
+
+.wow{
+    
+}
+
+/*이미지(단어, 맞춤법 다)*/
+.ws{
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+.ws:hover{
+    transform: scale(1.03);
+}
+
+.tall{
+    max-height: 500px;
+    width: auto;
+}
+
+/*설명박스*/
+.back{
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    min-height: 180px;
+
+    background-color: rgba(244,241,234,1.0);
+
+    opacity: 0;
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+
+.back h3{
+    color: #443A35;
+    font-size: 21px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+/*설명글*/
+.inform{
+
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .inform{
+        font-size: 14px;
+    }
+
+     .card{
+        min-height: 300px;
+    }
+
+    .back h3{
+        font-size: 19px;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    .card{
+        width: 60%;
+        min-width: 0;
+    }
+
+}
+
