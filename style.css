@@ -24,14 +24,6 @@ h1 {
 }
 
 
-@media screen and (max-width: 1320px) {
-
-    .mobile{
-        display: block;
-}
-
-
-
 }
 h2 {
     background-color: #e4ddcc;
@@ -307,7 +299,39 @@ h2 {
     .card{
         width: 60%;
         min-width: 0;
+
+    .inform{
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 1.5;
     }
 
+    h1{
+        font-size: 50px;
+        line-height: 1.2;
+    }
+
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main li{
+        width: 80vw;
+        height: 180px;
+        margin: 15px 0;
+    }
+
+    .main a{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1320px) {
+
+    .mobile{
+        display: block;
 }
 
