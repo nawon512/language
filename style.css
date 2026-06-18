@@ -24,7 +24,6 @@ h1 {
 }
 
 
-}
 h2 {
     background-color: #e4ddcc;
     padding: 10px 30px;
@@ -296,9 +295,14 @@ h2 {
 
 @media (max-width: 900px){
 
+    .mobile{
+        display: inline;
+    }
+
     .card{
         width: 60%;
         min-width: 0;
+    }
 
     .inform{
         font-size: 13px;
@@ -317,9 +321,9 @@ h2 {
     }
 
     .main li{
-        width: 80vw;
-        height: 180px;
-        margin: 15px 0;
+        width: 180px;
+        height: 120px;
+        margin: 10px 0;
     }
 
     .main a{
@@ -327,11 +331,18 @@ h2 {
         height: 100%;
     }
 
+    .word,
+    .spelling{
+        font-size: 24px;
+    }
+
 }
 
-@media screen and (max-width: 1320px) {
+@media screen and (max-width: 700px){
 
     .mobile{
-        display: block;
+        display: inline;
+    }
+
 }
 
