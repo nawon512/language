@@ -293,6 +293,7 @@ h2 {
 
 }
 
+
 @media (max-width: 900px){
 
     .mobile{
@@ -321,8 +322,8 @@ h2 {
     }
 
     .main li{
-        width: 180px;
-        height: 120px;
+        width: 140px;
+        height: 90px;
         margin: 10px 0;
     }
 
