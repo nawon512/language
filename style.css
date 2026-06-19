@@ -206,6 +206,8 @@ h2 {
     transition: 0.3s;
     margin: 30px;
     text-align: center;
+
+    word-break: keep-all;
 }
 .card:hover{
     transform: scale(1.03);
