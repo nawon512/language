@@ -2,11 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #3b2c23;
-
-    font-family: "Noto Sans KR",
-                 "Apple SD Gothic Neo",
-                 "Malgun Gothic",
-                 sans-serif;
 }
 
 h1 {
@@ -169,7 +164,7 @@ h2 {
 /*명조*/
 .word1 {
 	background-color: #414833;
-    font-family: "Noto Serif KR", serif !important;
+    font-family: "Noto Serif KR", serif;
 }
 
 /*고딕*/
