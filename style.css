@@ -169,7 +169,7 @@ h2 {
 /*명조*/
 .word1 {
 	background-color: #414833;
-    font-family: 'Noto Serif KR', serif;
+    font-family: "Noto Serif KR", serif !important;
 }
 
 /*고딕*/
